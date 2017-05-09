@@ -1,1 +1,3 @@
 # ESCI5980-Project2
+For the second project of ESCI5980, I created the Ucalculation class, which incorporated the isofilter class that was written for project1. The purpose of Ucalculation class is to filter and manipulate data from existing data files in order to do certain calculations. The specific data files that are compatible with the Ucalculation class are generated in the University of Minnesota's Trace Metal Isotope Geochemistry Laboratory. This is part of an ongoing project which aims to turn the existing calculations performed by the excel sheet using methods written in Macros by Hai Cheng. The specific uses and instantiations would be vividly demonstrated by the final project in which it is partly incorperated.     
+"""jffj:112 2e 
