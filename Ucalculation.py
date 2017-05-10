@@ -12,7 +12,7 @@ import openpyxl
 
 
 def main():
-    #first let's get all the necessary filtering done in isofilter
+    #first let's get all the necessary filtering done in Ufilter
     
     spike_input = raw_input("What spike did you use? Options: DIII-B, DIII-A, 1I, 1H : ") #could use input files rather than raw_input
     printing =raw_input("Would you like to print as you go? [y/n] : ")
