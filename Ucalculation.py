@@ -334,7 +334,7 @@ class Ucalculation():
         
         filteredDict92 = UFilter(self.filename_Th,"F", 28).filteredDict()
         #self.nine_two_m = filteredDict92['filteredMean']
-        self.nine_two_m = Ufilter(self.filename_Th, "F", 28).getMean()
+        self.nine_two_m = UFilter(self.filename_Th, "F", 28).getMean()
         self.nine_two_err_meas= filteredDict92['filteredError']
         self.nine_two_counts = filteredDict92['filteredCounts']
         self.nine_two_standdev = filteredDict92['filteredStanddev']
@@ -351,8 +351,8 @@ class Ucalculation():
        # self.std_229_232 = 2* (self.nine_two_standdev/(self.zero_two_counts**0.5))
         
         #not Filtering for 229Th column L
-        self.nine_m = Ufilter(self.filename_Th, "C", 28).getMean()
-        self.nine_counts = Ufilter(self.filename_Th,"C", 28).getCounts()
+        self.nine_m = UFilter(self.filename_Th, "C", 28).getMean()
+        self.nine_counts = UFilter(self.filename_Th,"C", 28).getCounts()
 
         self.U_wash_mean = 0
         self.Th_wash_mean = 0 
