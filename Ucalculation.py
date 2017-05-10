@@ -5,7 +5,7 @@
 
 """
 
-from IsoFilter import IsoFilter 
+
 import numpy as np
 import openpyxl
 
