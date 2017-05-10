@@ -27,7 +27,7 @@ Enter 4.67E-7
 ```
 Enter the source file name to filter for U: 
 ```
-Enter u.xlsm
+Enter U.xlsm
 
 ```
 Enter the file name to filter for Th: 
