@@ -512,7 +512,5 @@ class Ucalculation():
             return
 
        
-        
-    
-    
+main()
             
